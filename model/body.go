@@ -10,3 +10,7 @@ type Body struct {
 	sign string
 	data string
 }
+
+func (b *Body) Encode() {}
+
+func (b *Body) Decode() {}
