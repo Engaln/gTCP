@@ -8,4 +8,5 @@ type Serialize interface {
 type Body struct {
 	len  uint16
 	sign string
+	data string
 }
